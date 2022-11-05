@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+           
+            <ul>
+                <li><a href="#">Odontologia</a></li><br>
+                <li><a href="#">Pediatria</a></li><br>
+                <li><a href="#">laboratório</a></li><br>  
+            </ul> 
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <strong>
+                    <h1><u>Clínica Nova Rio Grande</u></h1>
+                    <p>A Clínica Nova Rio Grande é uma empresa gaúcha com mais de 37 anos no mercado de saúde. Aliamos as décadas de atuação à constante busca por inovação e modernização dos nossos processos.</p>
+                    <p>Nosso compromisso é oferecer um atendimento de excelência, voltado para a prevenção, com a qualidade que você merece.</p>
+                    <p>Nossa rede própria de atendimento oferece agilidade, e nossas clínicas credenciadas e hospitais parceiros garantem suporte quando você precisar.</p>
+                </strong>    
+                <img src="cabecalho.jpg" width="100%">
+                <img src="foto-principal.jpg" width="100%">
+            </div>
+                 <h1>Localização </h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8044.538377837913!2d-52.09860386330165!3d-32.03375235092309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1667561577099!5m2!1spt-BR!2sbr" width="640" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                <table width="640px" border="2px">
+                        <thead>
+                        <tr>
+                            <td>Serviços</td>
+                            <td>Segunda a Sexta</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Odontologia</td>
+                            <td>09:00 as 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>13:00 as 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Laboratório</td>
+                            <td>09:00 as 18:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <div class="content">
+              <h1>Atendimentos Odontológicos</h1>
+              <p>
+                Disponibilizamos consultas agendadas na área de odontologia clínica e especializada, com profissionais comprometidos em cuidar de sua saúde bucal. Tabela especial para nossos usuários.
+              </p> 
+              <img src="odontologia1.jpg">  
+
+              <h1>Pediatria</h1>
+              <p> A Pediatria é a especialidade médica voltada à saúde da criança e do adolescente, cuidando do seu crescimento e desenvolvimento até que alcance a vida adulta. É considerada uma das especialidades mais importantes e, por isso, merece nossa atenção. </p>
+              <img src="pediatria.jpeg">
+              <h1>laboratório</h1>
+              <p> Laboratório Médico dedicado à realização de todos os tipos de exames laboratoriais e é reconhecido por atuar em medicina laboratorial na sua região. Diferencia-se por prezar o bom relacionamento com os clientes e empregar a excelência e a inovação em suas atividades.
+               <img src="laboratorio3.jpg"> 
+            </p>
+            </div>
+            
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required="">
+
+				<label for="E-mail">E-mail</label>
+				<input type="email" id="E-mail" class="input-padrao" required="" placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="number" id="telefone" class="input-padrao" required="" placeholder="(xx)xxxxx-xxxx">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="50" rows="10" id="mensagem"class="input-padrao" required=""></textarea> 
+				<div>
+					<p>Como prefere nosso contato?</p>
+
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+					E-mail</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+					Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+
+					<input type="submit" value="Enviar Formulário" class="enviar">
+                    <input type="reset" value="Limpar Formulário"><br>
+				</div>
+
+				
+			</form>
+    
+            <div class="footer">
+                <p class="copyright">&copy; Copyright Clínica Nova Rio Grande</p>
+            <img src="rodape.png" width="100%" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
